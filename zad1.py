@@ -1,0 +1,5 @@
+input = input("Podaj liczby\n")
+numbers = input.split(",")
+numbers.sort()
+print("Minimum:",numbers[0])
+print("Maksimum:",numbers[len(numbers)-1])
